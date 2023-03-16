@@ -1,0 +1,228 @@
+.heading {
+  width: 352px;
+  height: 40px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #0d1c52;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.locationText {
+  width: 106px;
+  height: 18px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0d1c52;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.locationField input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+  width: 608px;
+  height: 55px;
+  border: 1px solid #8f9dce;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.locationField input::placeholder {
+  width: 248px;
+  height: 23px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0d1c52;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.form-check-label {
+  width: 575px;
+  height: 23px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0d1c52;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+input[type='checkbox'] {
+  accent-color: black !important;
+}
+
+.dateTitle {
+  width: 106px;
+  height: 18px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0d1c52;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.dateSelectorContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  margin-top: 5px;
+  width: 280px;
+  height: 65px;
+  border: 1px solid #8f9dce;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.pickupDate input {
+  border: none;
+  outline: none;
+}
+
+.pickupDate input[type='date']::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(../src/assets/Vector.png) no-repeat;
+  margin-left: 60px;
+  border-width: thin;
+}
+.hourSection {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  width: 140px;
+  height: 65px;
+  border: 1px solid #8f9dce;
+  border-radius: 4px 0px 0px 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.hourSection select {
+  width: 70px;
+  overflow: hidden;
+  appearance: none;
+  outline: none;
+  background: url(../src/assets/Vector.png) no-repeat right white;
+  display: inline-block;
+  position: relative;
+}
+
+.minuteSection {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  width: 140px;
+  height: 65px;
+  border: 1px solid #8f9dce;
+  border-radius: 0px 4px 4px 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.minuteSection select {
+  width: 70px;
+  overflow: hidden;
+  appearance: none;
+  outline: none;
+  background: url(../src/assets/Vector.png) no-repeat right white;
+  display: inline-block;
+  position: relative;
+}
+
+.ageLabel {
+  width: 316px;
+  height: 23px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0d1c52;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.benefitTitle {
+  width: 233px;
+  height: 23px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0d1c52;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 42px;
+  gap: 10px;
+  width: 608px;
+  height: 114px;
+  background: #fe6f4f;
+  border-radius: 30px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.buttonText {
+  width: 80px;
+  height: 30px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
